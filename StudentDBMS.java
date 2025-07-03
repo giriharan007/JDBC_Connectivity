@@ -4,9 +4,9 @@ import java.sql.*;
 public class StudentDBMS {
     public static void main(String[] args) throws Exception{
         Scanner sc=new Scanner(System.in);
-        String url = "jdbc:mysql://localhost:3306/jdbc";
-        String user = "root";
-        String password = "Giri";
+        String url = "jdbc:mysql://localhost:3306/use your database name";
+        String user = "use your username";
+        String password = "use your password";
         
         Class.forName("com.mysql.cj.jdbc.Driver");//(in new version it done automatically)
         Connection con = DriverManager.getConnection(url, user, password);
